@@ -9,21 +9,25 @@ $(document).ready(function() {
 
         result = Math.round((variable + sub + con + cos + tan) * 5);
 
+
         document.getElementById("grade").innerHTML = result;
         if (0 <= result && result <= 19) {
-            result2 = "SCP-1370.<br/><img src='img/robot.jpg' width='300' />"
+            result2 = "'<a href='http://www.scp-wiki.net/scp-1370'>SCP-1370</a><br/>''<img src='img/robot.jpg' width='300'/>"
+
         };
         if (19 < result && result <= 39) {
-            result2 = "SCP-1048.<br/><img src='img/teddy.jpg' width='300' />"
+            result2 = "'<a href='http://www.scp-wiki.net/scp-1048'>SCP-1048/a>''<br/><img src='img/teddy.jpg' width='300' />"
         };
         if (39 < result && result <= 59) {
-            result2 = "SCP-294.<br/><img src='img/coffeemachine.jpeg' width='300' />"
+            result2 = "'<a href='http://www.scp-wiki.net/scp-294'>SCP-294</a><br/><img src='img/coffeemachine.jpeg' width='300' />"
         };
+
+
         if (59 < result && result <= 79) {
-            result2 = "'Ethics Committee Orientation<br /><a href=http://www.scp-wiki.net/ethics-committee-orientation src='img/classd.jpg' alt='Ethics Website'</a>' width='300' />"
+            result2 =  "'<a href='http://www.scp-wiki.net/scp-1370'>SCP-1370</a><img src='img/classd.jpg' width='300'/>"
         };
         if (79 < result && result <= 100) {
-            result2 = "SCP-829<br/><img src='img/nailpolish.jpg' width='300' />"
+            result2 ="'<a href='http://www.scp-wiki.net/scp-SCP-829'>SCP-829</a><br/><img src='img/nailpolish.jpg' width='300' />"
         };
 
 
