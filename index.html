@@ -9,63 +9,61 @@
   <title>Your Final Destination Quiz</title>
 </head>
 <body>
-    <div id="main">
-        <div id="header">
-            <h1>Which "SCP-"</h1>
+    <div id="main" class"container">
+        <div id="header" classs="row">
+          <div>
+            <h1>Vacation with 'Secure Contain Protect!' for Halloween!</h1>
+          </div>
+          <div class="logo"> <img src= img/scp.png>
+          </div>
         </div>
 
-
+        <hr>
         <form id="form1" action=" ">
-            <p>Which place do you....?</p>
-            <input type="radio" name="variable" value="0" />a.
+            <p><em>What type of film genre do you turn to most?</em></p>
+            <input type="radio" name="variable" value="0" />  The scarier the better. Saw was tame and over-rated.
+            <br/>
+            <input type="radio" name="variable" value="1" />  I enjoy sci-fi horror, but not jump-scares or real terror.
             <br />
-            <input type="radio" name="variable" value="1" />b
+            <input type="radio" name="variable" value="2" />  Documentaries and adventure.
             <br />
-            <input type="radio" name="variable" value="2" />c
+            <input type="radio" name="variable" value="3" />  Comedy, anything that keeps my attention without being too intense.
+            <hr>
+            <p><em>What do like to do during a vacation?</em></p>
+            <input type="radio" name="sub" value="0" />  Shark cage diving, spelunking caves alone, explore dangerous areas that most wouldn't visit.
             <br />
-            <input type="radio" name="variable" value="3" />d.
+            <input type="radio" name="sub" value="1" />  Experience interesting places and things that make me think about the world differently.
             <br />
-
-            <p>Which is the best thing you...?</p>
-            <input type="radio" name="sub" value="0" />a.
+            <input type="radio" name="sub" value="2" />  See popular vacation spots I haven't been to, see new things and maybe venture to lesser known spots.
             <br />
-            <input type="radio" name="sub" value="1" />b
+            <input type="radio" name="sub" value="3" />  Roadtrip to nearby cities. I'd choose a museaum about potatoes over the bustle of New York.
+            <hr>
+            <p><em>Which is more important, curiosity or safety?</em></p>
+            <input type="radio" name="con" value="0" />  Curiosity. Nothing ventured, nothing gained.
             <br />
-            <input type="radio" name="sub" value="2" />c
+            <input type="radio" name="con" value="1" />  Curiosity, but I wouldn't venture past a 'do not enter' sign for something interesting.
             <br />
-            <input type="radio" name="sub" value="3" />d
+            <input type="radio" name="con" value="2" />  Safety, but I like to do something fun now and then.
             <br />
-
-            <p>Which is the best description of your...?</p>
-            <input type="radio" name="con" value="0" />a
+            <input type="radio" name="con" value="3" />  I plan on living to 110.
+            <hr>
+            <p><em>What do you do for fun?</em></p>
+            <input type="radio" name="tan" value="0" />  Youtube dangerous science experiments and try to repeat them. I failed highschool chemistry.
+            <br/>
+            <input type="radio" name="tan" value="1" />  Try something new, roadtripping without a map, read about science, anything mentally stimulating.
             <br />
-            <input type="radio" name="con" value="1" />b
+            <input type="radio" name="tan" value="2" />  Fitness excersizes, video games.
             <br />
-            <input type="radio" name="con" value="2" />c
+            <input type="radio" name="tan" value="3" />  Card games, plan my meals for the day.
+            <hr>
+            <p><em>Do you enjoy being scared?</em></p>
+            <input type="radio" name="cos" value="0" /> Yes.
             <br />
-            <input type="radio" name="con" value="3" />d
+            <input type="radio" name="cos" value="1" />  If it isn't too dangerous, yes.
             <br />
-
-
-            <p>Which is the best description of your...?</p>
-            <input type="radio" name="tan" value="0" />a
+            <input type="radio" name="cos" value="2" />  I like light horror/thriller type movies but haunted houses are too much.
             <br />
-            <input type="radio" name="tan" value="1" />b
-            <br />
-            <input type="radio" name="tan" value="2" />c
-            <br />
-            <input type="radio" name="tan" value="3" />d
-            <br />
-
-
-            <p>Which is the best description of your...?</p>
-            <input type="radio" name="cos" value="0" />a
-            <br />
-            <input type="radio" name="cos" value="1" />b
-            <br />
-            <input type="radio" name="cos" value="2" />c
-            <br />
-            <input type="radio" name="cos" value="3" />d
+            <input type="radio" name="cos" value="3" />  No!
             <br />
 
 
@@ -73,9 +71,10 @@
             <input type="submit" value="Submit">
         </form>
 
-      
 
-        <p>Your best eerie destination is: <span id="grade">__</span></p>
+
+        <p>Your score is: <span id="grade"></span></p>
+        <p>Your best eerie destination is:</p>
         <p id="grade2"></p>
     </div>
 

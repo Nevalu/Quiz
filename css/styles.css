@@ -1,27 +1,46 @@
-<style>
+
+
     body {
-        background-color: orange;
+        background-color: #F5B041;
         font-family: Helvetica;
+        max-width: 100%
+        
     }
 
     #main {
-        width: 80%;
+        width: 90%;
         max-width: 950px;
-        border: 1px gray solid;
+        border: 5px black solid;
         margin: auto;
         padding: 10px;
-        background-color: white;
+        background-color: #FDEBD0;
         border-radius: 10px;
     }
 
     #header {
+        max-width: 90%
         margin-top: 0;
-        border: 8px solid yellow;
         padding: 5px;
-        height: 250px;
+        height: 100px;
         background: orange;
-        color: white;
-        font-size: 200%;
-        
+        color: #784212;
+        font-style: oblique;
+        border-radius: 3%;
+
     }
-</style>
+
+
+    #form1 {
+      background-color: #FDEBD0;
+      width: 100%;
+      color: maroon;
+      font-size: 120%
+    }
+
+    .logo img{
+       border: 0px
+       solid #eee;
+       padding: 3px;
+       filter: alpha (opacity=10);
+       opacity: 0.10;}
+    }
